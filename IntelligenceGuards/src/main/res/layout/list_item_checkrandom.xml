@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fuxk_settle_black_mark"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dailog_2"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/image_p"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/icon8" />
+
+            <TextView
+                android:id="@+id/checkrandom_txtl"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/image_p"
+                android:gravity="center"
+                android:text="@string/checkrandom_unit"
+                android:textColor="@color/light_grey"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/checkrandom_txtle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/checkrandom_txtl"
+                android:gravity="center"
+                android:text="@string/checkrandom_unit_"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#f6f6f6"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/image_j"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/icon10" />
+
+            <TextView
+                android:id="@+id/checkrandom_txtd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/image_j"
+                android:gravity="center"
+                android:text="@string/checkrandom_superviser"
+                android:textColor="@color/light_grey"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/checkrandom_txtde"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/checkrandom_txtd"
+                android:gravity="center"
+                android:text="@string/checkrandom_superviser_"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

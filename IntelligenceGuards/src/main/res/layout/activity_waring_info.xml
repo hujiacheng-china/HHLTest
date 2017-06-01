@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/grey"
+                android:gravity="center_vertical"
+                android:text="@string/waring_dwinfo" />
+            <!-- 单位名称 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_heigh_default"
+                android:layout_marginLeft="@dimen/item_margin_default"
+                android:layout_marginRight="@dimen/item_margin_default"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="@dimen/image_icon_default"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/icon9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/image1"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_1"
+                    android:textSize="@dimen/txt_size_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_1_"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/txt_size_default" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_dashed"
+                android:layout_marginLeft="@dimen/item_dashed_margin"
+                android:layout_marginRight="@dimen/item_dashed_margin"
+                android:background="#f6f6f6" />
+            <!-- 联系人 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_heigh_default"
+                android:layout_marginLeft="@dimen/item_margin_default"
+                android:layout_marginRight="@dimen/item_margin_default"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="@dimen/image_icon_default"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/icon10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/image2"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_2"
+                    android:textSize="@dimen/txt_size_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_2_"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/txt_size_default" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_dashed"
+                android:layout_marginLeft="@dimen/item_dashed_margin"
+                android:layout_marginRight="@dimen/item_dashed_margin"
+                android:background="#f6f6f6" />
+            <!-- 电话 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_heigh_default"
+                android:layout_marginLeft="@dimen/item_margin_default"
+                android:layout_marginRight="@dimen/item_margin_default"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="@dimen/image_icon_default"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/icon11" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/image3"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_3"
+                    android:textSize="@dimen/txt_size_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_3_"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/txt_size_default" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_dashed"
+                android:layout_marginLeft="@dimen/item_dashed_margin"
+                android:layout_marginRight="@dimen/item_dashed_margin"
+                android:background="#f6f6f6" />
+            <!-- 地址 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_heigh_default"
+                android:layout_marginLeft="@dimen/item_margin_default"
+                android:layout_marginRight="@dimen/item_margin_default"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="@dimen/image_icon_default"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/icon12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/image4"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_4"
+                    android:textSize="@dimen/txt_size_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_4_"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/txt_size_default" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_dashed"
+                android:layout_marginLeft="@dimen/item_dashed_margin"
+                android:layout_marginRight="@dimen/item_dashed_margin"
+                android:background="#f6f6f6" />
+            <!-- 执照号 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_heigh_default"
+                android:layout_marginLeft="@dimen/item_margin_default"
+                android:layout_marginRight="@dimen/item_margin_default"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="@dimen/image_icon_default"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/icon13" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/image5"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_5"
+                    android:textSize="@dimen/txt_size_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_5_"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/txt_size_default" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_dashed"
+                android:layout_marginLeft="@dimen/item_dashed_margin"
+                android:layout_marginRight="@dimen/item_dashed_margin"
+                android:background="#f6f6f6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/grey"
+                android:gravity="center_vertical"
+                android:text="@string/waring_yjinfo" />
+            <!-- 证件名称 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_heigh_default"
+                android:layout_marginLeft="@dimen/item_margin_default"
+                android:layout_marginRight="@dimen/item_margin_default"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/image_6"
+                    android:layout_width="@dimen/image_icon_default"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/icon13" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/image_6"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_6"
+                    android:textSize="@dimen/txt_size_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_6_"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/txt_size_default" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_dashed"
+                android:layout_marginLeft="@dimen/item_dashed_margin"
+                android:layout_marginRight="@dimen/item_dashed_margin"
+                android:background="#f6f6f6" />
+            <!-- 预警内容 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_heigh_default"
+                android:layout_marginLeft="@dimen/item_margin_default"
+                android:layout_marginRight="@dimen/item_margin_default"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="@dimen/image_icon_default"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/icon33" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/image7"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_7"
+                    android:textSize="@dimen/txt_size_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_7_"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/txt_size_default" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_dashed"
+                android:layout_marginLeft="@dimen/item_dashed_margin"
+                android:layout_marginRight="@dimen/item_dashed_margin"
+                android:background="#f6f6f6" />
+            <!-- 覆盖率 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_heigh_default"
+                android:layout_marginLeft="@dimen/item_margin_default"
+                android:layout_marginRight="@dimen/item_margin_default"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/image8"
+                    android:layout_width="@dimen/image_icon_default"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/icon22" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/image8"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_8"
+                    android:textSize="@dimen/txt_size_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/waring_txt_8_"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/txt_size_default" />
+            </RelativeLayout>
+            <!-- 联系人 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_dashed"
+                android:layout_marginLeft="@dimen/item_dashed_margin"
+                android:layout_marginRight="@dimen/item_dashed_margin"
+                android:background="#f6f6f6" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

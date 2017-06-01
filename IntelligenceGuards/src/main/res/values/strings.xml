@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--app-->
+    <string name="app_name">智慧卫监</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- login -->
+    <string name="account">输入帐号</string>
+    <string name="password">输入密码</string>
+    <string name="login">登 录</string>
+    <string name="auto_save_password">记住密码</string>
+    <string name="register2">忘记密码？</string>
+    <!-- title -->
+    <string name="title_waring">预警提示</string>
+    <string name="title_sup">监督任务</string>
+    <string name="title_daily">日常监督</string>
+    <string name="title_filequery">档案查询</string>
+    <string name="title_map">地图</string>
+    <string name="title_otherons">附加程序</string>
+    <string name="title_checkrandom">双随机抽查</string>
+    <string name="title_quickcheck">现场快检</string>
+    <string name="title_photo">拍照视频录音</string>
+    <string name="title_mapms">地图模式</string>
+    <!-- checkbox -->
+    <string name="checkbox_all">全选</string>
+    <!-- button -->
+    <string name="button_send">发送短信预警</string>
+    <string name="map_sousuo">请输入您要查找的商家名称</string>
+    <!-- test -->
+    <string name="quickcheck_s">快检：</string>
+    <string name="quickcheck_test">卫生抽查</string>
+    <string name="map_phone">电话：</string>
+    <string name="map_phone_">0592-886666</string>
+    <string name="map_address">地址：</string>
+    <string name="map_address_">厦门市翔安区马巷镇巷西路267号</string>
+    <!-- dailytask -->
+    <string name="daily_txt1">被监督单位查询：</string>
+    <string name="daily_edt_ht">请输入您要查找的单位名称/个人</string>
+    <string name="daily_btn_1">查询</string>
+    <string name="daily_btn_2">有证查询</string>
+    <string name="daily_btn_3">无证查询</string>
+    <!-- photo -->
+    <string name="photo_location">当前位置：</string>
+    <string name="photo_btn1">拍照</string>
+    <string name="photo_btn2">录像</string>
+    <!-- checkrandom -->
+    <string name="checkrandom_btn1">后台随机抽取</string>
+    <string name="checkrandom_btn2">市级随机抽取</string>
+    <string name="checkrandom_unit">被监督单位</string>
+    <string name="checkrandom_unit_">：厦门第一中学</string>
+    <string name="checkrandom_superviser">监督人：</string>
+    <string name="checkrandom_superviser_">张珊珊</string>
+    <!-- otherons -->
+    <string name="otherons_txt1">协管巡查</string>
+    <string name="otherons_txt2">群发短信</string>
+    <string name="otherons_txt3">应急处理</string>
+    <string name="otherons_txt4">重大活动保障</string>
+    <string name="otherons_txt5">投诉处理</string>
+    <!-- sup -->
+    <string name="sup_dwinfo">单位详情</string>
+    <string name="sup_jdinfo">监督详情</string>
+    <string name="sup_txt_1_">厦门翔安一中</string>
+    <string name="sup_txt_2_">张三</string>
+    <string name="sup_txt_3_">0592-886666</string>
+    <string name="sup_txt_4_">厦门市翔安区马巷镇巷西路267号</string>
+    <string name="sup_txt_5_">532501100006302</string>
+    <string name="sup_txt_1">单位名称</string>
+    <string name="sup_txt_2">联系人</string>
+    <string name="sup_txt_3">电话</string>
+    <string name="sup_txt_4">地址</string>
+    <string name="sup_txt_5">执照号</string>
+    <string name="sup_txt_6_">A</string>
+    <string name="sup_txt_7_">89%</string>
+    <string name="sup_txt_8_">2</string>
+    <string name="sup_txt_9_">4</string>
+    <string name="sup_txt_0_">有效单位</string>
+    <string name="sup_txt_6">评级</string>
+    <string name="sup_txt_7">覆盖率</string>
+    <string name="sup_txt_8">监督频次</string>
+    <string name="sup_txt_9">应监督次数</string>
+    <string name="sup_txt_0">状态</string>
+    <!-- waring -->
+    <string name="waring_dwinfo">单位详情</string>
+    <string name="waring_yjinfo">预警详情</string>
+    <string name="waring_txt_1">单位名称</string>
+    <string name="waring_txt_2">联系人</string>
+    <string name="waring_txt_3">电话</string>
+    <string name="waring_txt_4">地址</string>
+    <string name="waring_txt_5">执照号</string>
+    <string name="waring_txt_6">证件名称</string>
+    <string name="waring_txt_7">预警内容</string>
+    <string name="waring_txt_8">覆盖率</string>
+    <string name="waring_txt_1_">厦门翔安一中</string>
+    <string name="waring_txt_2_">张三</string>
+    <string name="waring_txt_3_">0592-886666</string>
+    <string name="waring_txt_4_">厦门市翔安区马巷镇巷西路267号</string>
+    <string name="waring_txt_5_">532501100006302</string>
+    <string name="waring_txt_6_">营业执照</string>
+    <string name="waring_txt_7_">年检</string>
+    <string name="waring_txt_8_">58%</string>
+</resources>

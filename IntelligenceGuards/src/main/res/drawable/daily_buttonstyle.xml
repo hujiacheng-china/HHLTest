@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@color/goldenrod"/>
+    <item
+        android:bottom="4px"
+        android:drawable="@color/fuxk_settle_black_mark"
+        android:left="4px"
+        android:right="4px"
+        android:top="4px"/>
+
+</layer-list>

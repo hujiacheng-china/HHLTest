@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/sup_listView"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/sup_btn_1" >
+    </ListView>
+
+    <Button
+        android:id="@+id/sup_btn_1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_fg"
+        android:drawableRight="@drawable/bottom"
+        android:text="覆盖率" />
+
+    <Button
+        android:id="@+id/sup_btn_2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_btn_blue"
+        android:drawableRight="@drawable/bottom"
+        android:text="监督频次" />
+
+</RelativeLayout>

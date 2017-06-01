@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:background="@drawable/dailog_2"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="新光门诊部"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#f6f6f6"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/image_p"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/icon10" />
+
+                    <TextView
+                        android:id="@+id/quickcheck_txtl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_p"
+                        android:gravity="center"
+                        android:text="联系人："
+                        android:textColor="@color/light_grey"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/quickcheck_txtle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/quickcheck_txtl"
+                        android:gravity="center"
+                        android:text="张珊珊"
+                        android:textColor="@color/light_grey"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/image_q"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/icon32" />
+
+                    <TextView
+                        android:id="@+id/quickcheck_txxm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_q"
+                        android:gravity="center"
+                        android:text="@string/quickcheck_s"
+                        android:textColor="@color/light_grey"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/quickcheck_txtxme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/quickcheck_txxm"
+                        android:gravity="center"
+                        android:text="@string/quickcheck_test"
+                        android:textColor="@color/light_grey"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/image_ph"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon11" />
+
+                    <TextView
+                        android:id="@+id/quickcheck_txtph"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_ph"
+                        android:gravity="center"
+                        android:text="@string/map_phone"
+                        android:textColor="@color/light_grey"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/quickcheck_txtphe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/quickcheck_txtph"
+                        android:gravity="center"
+                        android:text="@string/map_phone_"
+                        android:textColor="@color/light_grey"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/image_j"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon12" />
+
+                    <TextView
+                        android:id="@+id/quickcheck_txtd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_j"
+                        android:gravity="center"
+                        android:text="@string/map_address"
+                        android:textColor="@color/light_grey"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/quickcheck_txtde"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/quickcheck_txtd"
+                        android:gravity="center"
+                        android:text="@string/map_address_"
+                        android:textColor="@color/light_grey"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

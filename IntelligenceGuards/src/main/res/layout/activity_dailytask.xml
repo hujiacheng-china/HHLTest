@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false" >
+
+    <include layout="@layout/title_bar"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_below="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/daily_txt1" />
+
+    <Spinner
+        android:id="@+id/sp_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hint"
+        android:layout_margin="8dp"
+        android:background="@color/White" />
+
+    <Spinner
+        android:id="@+id/sp_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp_place"
+        android:layout_margin="8dp"
+        android:background="@color/White" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sp_category"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="@string/daily_edt_ht" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/ll_query"
+        style="@style/button_press"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/et_name"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_orange"
+        android:gravity="center">
+
+        <ImageView
+            android:src="@drawable/ic_search"
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <TextView
+            android:text="@string/daily_btn_1"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            android:layout_marginLeft="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/ll_query"
+        android:clipChildren="false"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_licensed"
+            style="@style/button_press"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/button_white"
+            android:text="@string/daily_btn_2"
+            android:textColor="@color/orange_dark" />
+
+        <Button
+            android:id="@+id/btn_unlicensed"
+            style="@style/button_press"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_white"
+            android:text="@string/daily_btn_3"
+            android:textColor="@color/orange_dark" />
+    </LinearLayout>
+
+</RelativeLayout>

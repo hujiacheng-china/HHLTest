@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- home -->
+    <color name="tab_text_default">#bbbbbb</color>
+    <color name="title_text_color">#ffffff</color>
+    <!-- 浅蓝色 -->
+    <color name="wathet">#00ffff</color>
+    <!-- 浅灰色 -->
+    <color name="light_grey">#bdbdbd</color>
+    <!-- 透明色 -->
+    <color name="fuxk_settle_black_mark">#1A000000</color>
+    <color name="app_bg">#eeeeee</color>
+    <!-- 分割线 -->
+    <color name="fuxk_base_divide_line_color">#dcdcdc</color>
+    <color name="black">#ff646464</color>
+    <!-- 主色蓝 -->
+    <color name="blue_touch_cas">#B3B3B3</color>
+    <!-- 主色 按住蓝 -->
+    <color name="background_cas">#F2F2F2</color>
+    <!-- 主色 按住蓝 -->
+    <color name="black_cas">#333333</color>
+    <!-- 主色 -->
+    <!-- 标题背景 -->
+    <!-- 秋麒麟 -->
+    <color name="goldenrod">#F4D009</color>
+
+
+    <!--我的专用配色-->
+    <color name="title">#FFFFFF</color>
+    <color name="title_bg">#3F51B5</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+
+    <!--blue grey-->
+    <color name="primary">#607D8B</color>
+    <color name="primary_dark">#455A64</color>
+    <color name="primary_light">#CFD8DC</color>
+    <color name="accent">#607D8B</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <!--red-->
+    <color name="red">#F44336</color>
+    <color name="red_dark">#D32F2F</color>
+    <color name="red_light">#FFCDD2</color>
+    <color name="red_accent">#FF5252</color>
+
+    <!--teal-->
+    <color name="teal">#009688</color>
+    <color name="teal_dark">#00796B</color>
+    <color name="teal_light">#B2DFDB</color>
+    <color name="teal_accent">#009688</color>
+
+    <!--indigo-->
+    <color name="indigo">#3F51B5</color>
+    <color name="indigo_dark">#303F9F</color>
+    <color name="indigo_light">#C5CAE9</color>
+    <color name="indigo_accent">#536DFE</color>
+
+    <!--pink-->
+    <color name="pink_dark">#F50057</color>
+    <color name="pink_normal">#FF4081</color>
+    <color name="pink_light">#FF80AB</color>
+
+    <!--orange-->
+    <color name="orange">#FF9800</color>
+    <color name="orange_dark">#F57C00</color>
+    <color name="orange_light">#FFE0B2</color>
+    <color name="orange_accent">#FF9800</color>
+
+    <!--light blue-->
+    <color name="lightblue">#03A9F4</color>
+    <color name="lightblue_dark">#0288D1</color>
+    <color name="lightblue_light">#B3E5FC</color>
+    <color name="lightblue_accent">#03A9F4</color>
+
+    <!--grey-->
+    <color name="grey">#9E9E9E</color>
+    <color name="grey_dark">#616161</color>
+    <color name="grey_light">#F5F5F5</color>
+    <color name="grey_accent">#9E9E9E</color>
+
+    <!--cyan-->
+    <color name="cyan">#00BCD4</color>
+    <color name="cyan_dark">#0097A7</color>
+    <color name="cyan_light">#B2EBF2</color>
+    <color name="cyan_accent">#00BCD4</color>
+
+</resources>
